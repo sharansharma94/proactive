@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: lightblue;
+  width: 80%;
+  min-height: 50%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.tools{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.tool{
+    flex-direction: column;
+}
